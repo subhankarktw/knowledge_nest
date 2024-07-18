@@ -1,0 +1,275 @@
+*{
+  font-weight: lighter;
+  font-family: cursive;
+}
+.sec1 {
+  display: flex;
+  /* height: 300px; */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.sec-2 {
+  display: flex;
+  /* height: 300px; */
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.part1 {
+  padding: 5px;
+}
+.part2 {
+  padding: 5px;
+}
+
+.book-show {
+  width: 70%;
+  height: 100%;
+}
+
+.table-heading {
+  text-align: center;
+  background-color: purple;
+  color: white;
+}
+.tbody {
+  height: 265px;
+}
+.table-data {
+  color: black;
+}
+.notice {
+  background-color: #f0f0f0;
+  padding: 35px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px;
+  /* height: 100%; */
+  width: 30%;
+  color: black;
+  overflow-y: hidden;
+}
+
+.notice ul li {
+  list-style-type: disc;
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+.notice ol li {
+  list-style-type: decimal;
+  margin-bottom: 5px;
+}
+
+.notice ol li:hover {
+  color: #007bff;
+  cursor: pointer;
+}
+.notice {
+  background: #f2f2f2; /* Background color for the notice container */
+  padding: 20px; /* Add padding for spacing */
+  border-left: 6px solid #4caf50; /* Add a left border with a green color (you can change the color) */
+  margin: 10px; /* Add margin for spacing */
+}
+
+/* Style the notice icon */
+.notice::before {
+  color: #4caf50; /* Color of the icon (you can change it) */
+  font-size: 20px; /* Size of the icon */
+  padding-right: 10px; /* Add padding to separate the icon from the text */
+}
+
+@media screen and (max-width: 952px) {
+  .sec-2 {
+    margin-top: 13px;
+  }
+}
+
+@media screen and (max-width: 916px) {
+  .sec-2 {
+    margin-top: 45px;
+  }
+  .book-show {
+    height: auto;
+  }
+}
+@media screen and (max-width: 780px) {
+  .sec1 {
+    flex-direction: column-reverse;
+  }
+  .book-show {
+    width: 760px;
+    font-size: 20px;
+  }
+  .notice {
+    width: 765px;
+    margin-top: 19px;
+  }
+  .sec-2 {
+    flex-direction: column;
+  }
+  
+}
+@media screen and (max-width: 710px) {
+  .sec1 {
+    flex-direction: column-reverse;
+  }
+  .book-show {
+    width: 695px;
+    font-size: 20px;
+  }
+  .notice {
+    width: 695px;
+    margin-top: 19px;
+  }
+  .sec-2 {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 640px) {
+  .sec1 {
+    flex-direction: column-reverse;
+  }
+  .book-show {
+    width: 625px;
+    font-size: 18px;
+  }
+  .notice {
+    width: 605px;
+    margin-top: 18px;
+  }
+  .sec-2 {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 546px) {
+  .sec1 {
+    flex-direction: column-reverse;
+  }
+  .book-show {
+    width: 526px;
+    font-size: 14px;
+  }
+  .notice {
+    width: 526px;
+    margin-top: 12px;
+  }
+  .sec-2 {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 486px) {
+  .heading-user h3 {
+    font-size: 14px;
+  }
+  .sec1 {
+    flex-direction: column-reverse;
+  }
+  .book-show {
+    width: 466px;
+    font-size: 14px;
+  }
+  .notice {
+    width: 466px;
+    margin-top: 12px;
+  }
+  .sec-2 {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 419px) {
+  .sec1 {
+    flex-direction: column-reverse;
+  }
+  .book-show {
+    width: 390px;
+    font-size: 14px;
+  }
+  .heading-user h3 {
+    font-size: 14px;
+  }
+  .notice {
+    width: 390px;
+  }
+  .sec-2 {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 400px) {
+  .sec1 {
+    flex-direction: column-reverse;
+  }
+  .book-show {
+    width: 380px;
+    font-size: 12px;
+  }
+  .heading-user h3 {
+    font-size: 13px;
+  }
+  .notice {
+    width: 386px;
+    margin-top: 21px;
+  }
+  .sec-2 {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 360px) {
+  .sec1 {
+    flex-direction: column-reverse;
+  }
+  .book-show {
+    width: 340px;
+    font-size: 12px;
+  }
+  .heading-user h3 {
+    font-size: 13px;
+  }
+  .notice {
+    width: 340px;
+    margin-top: 21px;
+  }
+  .sec-2 {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 340px) {
+  .sec1 {
+    flex-direction: column-reverse;
+  }
+  .book-show {
+    width: 325px;
+    font-size: 11px;
+  }
+  .heading-user h3 {
+    font-size: 13px;
+  }
+  .notice {
+    width: 326px;
+    margin-top: 21px;
+  }
+  .sec-2 {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 290px) {
+  .sec1 {
+    flex-direction: column-reverse;
+  }
+  .book-show {
+    width: 275px;
+    font-size: 11px;
+  }
+  .heading-user h3 {
+    font-size: 13px;
+  }
+  .notice {
+    width: 276px;
+    margin-top: 21px;
+  }
+  .sec-2 {
+    flex-direction: column;
+  }
+}
